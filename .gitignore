@@ -28,3 +28,5 @@
 /07_NumbersAndDates/.gitlab-ci.yml
 /07_NumbersAndDates/checkstyle.xml
 /07_NumbersAndDates/.idea/
+/08_Strings/.idea/
+/08_Strings/.gitlab-ci.yml
