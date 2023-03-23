@@ -23,3 +23,8 @@
 /05_ObjectsAndClasses_StaticFinal/.gitkeeper
 /05_ObjectsAndClasses_StaticFinal/ObjectsAndClasses_StaticFinal.iml
 /06_Primitives/IntOrInteger/IntOrInteger.iml
+/07_NumbersAndDates/assets/
+/07_NumbersAndDates/.gitignore
+/07_NumbersAndDates/.gitlab-ci.yml
+/07_NumbersAndDates/checkstyle.xml
+/07_NumbersAndDates/.idea/
