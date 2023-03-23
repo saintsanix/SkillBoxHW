@@ -1,0 +1,1 @@
+<p fr-original-style="" style="margin-top: 0px; margin-bottom: 12px; color: var(--ui-sb-color-text-main); box-sizing: border-box; font-size: 16px; line-height: 22px;">Напишите в этом же проекте код, который с помощью цикла и преобразования чисел в символы найдёт все числовые коды букв русского алфавита — заглавных и строчных, в том числе буквы Ё.</p>
