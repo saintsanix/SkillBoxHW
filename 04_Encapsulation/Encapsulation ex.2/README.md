@@ -1,0 +1,15 @@
+<strong fr-original-style="" style="font-weight: 700; box-sizing: border-box;">Цель</strong>
+<p fr-original-style="" style="margin-top: 0px; margin-bottom: 12px; color: var(--ui-sb-color-text-main); box-sizing: border-box; font-size: 16px; line-height: 22px;">Научиться реализовывать механизм копирования объектов, в том числе объектов иммутабельных классов.</p>
+<strong fr-original-style="" style="font-weight: 700; box-sizing: border-box;">Что нужно сделать</strong>
+<p fr-original-style="" style="margin-top: 0px; margin-bottom: 12px; color: var(--ui-sb-color-text-main); box-sizing: border-box; font-size: 16px; line-height: 22px;">Продолжайте работу в проекте Encapsulation, в котором вы выполняли предыдущее задание. Создайте в этом проекте иммутабельный класс для хранения информации о грузах, передаваемых в курьерскую службу. Название класса придумайте самостоятельно.</p>
+<p fr-original-style="" style="margin-top: 0px; margin-bottom: 12px; color: var(--ui-sb-color-text-main); box-sizing: border-box; font-size: 16px; line-height: 22px;">Создайте у класса следующие поля:</p>
+<li fr-original-style="" style="box-sizing: border-box;">габариты;</li>
+<li fr-original-style="" style="box-sizing: border-box;">масса;</li>
+<li fr-original-style="" style="box-sizing: border-box;">адрес доставки;</li>
+<li fr-original-style="" style="box-sizing: border-box;">свойство — можно ли переворачивать;</li>
+<li fr-original-style="" style="box-sizing: border-box;">регистрационный номер (может содержать буквы);</li>
+<li fr-original-style="" style="box-sizing: border-box;">является ли груз хрупким.</li>
+<p fr-original-style="" style="margin-top: 0px; margin-bottom: 12px; color: var(--ui-sb-color-text-main); box-sizing: border-box; font-size: 16px; line-height: 22px;">Названия полей придумайте самостоятельно таким образом, чтобы по ним было понятно, что в них находится. Типы полей задайте в соответствии с данными, которые в них содержатся.</p>
+<p fr-original-style="" style="margin-top: 0px; margin-bottom: 12px; color: var(--ui-sb-color-text-main); box-sizing: border-box; font-size: 16px; line-height: 22px;">Габариты — ширина, высота и длина — должны храниться в отдельном иммутабельном классе Dimensions. Создайте класс Dimensions с соответствующими полями и реализуйте в нём метод вычисления объёма груза (название метода придумайте самостоятельно).</p>
+<p fr-original-style="" style="margin-top: 0px; margin-bottom: 12px; color: var(--ui-sb-color-text-main); box-sizing: border-box; font-size: 16px; line-height: 22px;">Реализуйте в классе методы, дающие возможность изменять адрес доставки, габариты и массу груза без изменения исходного объекта путём создания его копии.</p>
+<p fr-original-style="" style="margin-top: 0px; margin-bottom: 12px; color: var(--ui-sb-color-text-main); box-sizing: border-box; font-size: 16px; line-height: 22px;">Напишите в методе main класса Main дополнительный код, который будет создавать экземпляр класса (объект) груза и его копии при изменении тех или иный полей. Напишите также код, который позволит проверить, что копирование действительно происходит.</p>
