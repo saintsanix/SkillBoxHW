@@ -1,0 +1,4 @@
+<strong fr-original-style="" style="font-weight: 700; box-sizing: border-box;">Цель задания</strong>
+<p fr-original-style="" style="margin-top: 0px; margin-bottom: 12px; color: var(--ui-sb-color-text-main); box-sizing: border-box; font-size: 16px; line-height: 22px;">Научиться работать с классом Thread.</p>
+<p fr-original-style="" style="margin-top: 0px; margin-bottom: 12px; color: var(--ui-sb-color-text-main); box-sizing: border-box; font-size: 16px; line-height: 22px;"><strong fr-original-style="" style="font-weight: 700; box-sizing: border-box;">Что нужно сделать</strong></p>
+<p fr-original-style="" style="margin-top: 0px; margin-bottom: 12px; color: var(--ui-sb-color-text-main); box-sizing: border-box; font-size: 16px; line-height: 22px;">Напишите программу уменьшения изображений на основе проекта ImageResizer. Она должна запускать число потоков, равное количеству ядер процессора вашего компьютера.</p>
