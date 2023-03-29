@@ -10,4 +10,3 @@
 <p fr-original-style="" style="margin-top: 0px; margin-bottom: 12px; color: var(--ui-sb-color-text-main); box-sizing: border-box; font-size: 16px; line-height: 22px;">Научиться выбирать подходящие модификаторы доступа.</p>
 <p fr-original-style="" style="margin-top: 0px; margin-bottom: 12px; color: var(--ui-sb-color-text-main); box-sizing: border-box; font-size: 16px; line-height: 22px;"><strong fr-original-style="" style="font-weight: 700; box-sizing: border-box;">Что нужно сделать</strong></p>
 <p fr-original-style="" style="margin-top: 0px; margin-bottom: 12px; color: var(--ui-sb-color-text-main); box-sizing: border-box; font-size: 16px; line-height: 22px;">Используйте код предыдущего задания. Установите в коде проекта подходящие модификаторы доступа у методов и переменных классов BankAccount, CardAccount и DepositAccount.</p>
-![](assets/1640373532731.png)
