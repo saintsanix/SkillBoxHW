@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymelea.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <script src="/js/jquery-3.4.0.min.js"></script>
+    <script src="/js/main.js"></script>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+<div class="info">
+    <span class="info-text" th:text="${url}"></span>
+    <span class="info-text" th:text="${username}"></span>
+    <span class="info-text" th:text="${password}"></span>
+</div>
+    <main class="main">
+        <section class="general">
+            <div class="container">
+                <div class="to-do-list">
+                    <form class="to-do-list-form" id="to-do-list-form">
+                        <h1 class="to-do-list-title">
+                            СПИСОК ДЕЛ (<span th:text="${taskCount}">0</span>)
+                        </h1>
+                        <div class="list-desc">
+                            <h2 class="title-desc">
+                                Название дела:
+                            </h2>
+                            <input type="text" name="nameTask" value="" id="name" class="list-input name-input">
+                            <h2 class="title-desc">
+                                Описание дела:
+                            </h2>
+                            <textarea type="text" name="descTask" value="" id="desc" class="list-input desc-input"></textarea>
+                        </div>
+                        <div class="to-do-list-button">
+                            <button id="save-task" class="list-button">Добавить/Заменить дело</button>
+                            <button id="delete" class="list-button">Удалить дело</button>
+                        </div>
+                    </form>
+                    <ol class="to-do-list-list" id="to-do-list-list">
+                        <li th:each="task : ${taskList}">
+                            <h4 th:text="${task.nameTask}"></h4>
+                            <p th:text="${task.descTask}"></p>
+                        </li>
+                    </ol>
+                    <div class="to-do-list-button">
+                        <button id="delete-list" class="list-button">Удалить все дела</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
